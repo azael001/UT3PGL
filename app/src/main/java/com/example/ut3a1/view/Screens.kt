@@ -46,7 +46,7 @@ fun PostItem(post:Post){
     ) {
         Text(text=post.id.toString())
         Spacer(modifier = Modifier.height(8.dp))
-        Text(text=post.tittle)
+        Text(text=post.title)
         Spacer(modifier = Modifier.height(8.dp))
         Text(text=post.body)
     }
